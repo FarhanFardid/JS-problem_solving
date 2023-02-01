@@ -1,33 +1,34 @@
-function vowel_consonant(letter){
+const solution = (letter)=> {
     if( letter == 'A' || letter =='a')
     {
-        console.log("VOWEL");
+        return "VOWEL";
     }
 
   else if( letter == 'E' || letter =='e')
     {
-        console.log("VOWEL");
+        return "VOWEL";
     }
     else if( letter == 'I' || letter =='i')
     {
-        console.log("VOWEL");
+        return "VOWEL";
     }
     else if( letter == 'O' || letter =='o')
     {
-        console.log("VOWEL");
+        return "VOWEL";
     }
     else if( letter == 'U' || letter =='u')
     {
-        console.log("VOWEL");
+        return "VOWEL";
     }
      
     else{
-        console.log("CONSONANT");
+        return "CONSONANT";
     }
 
-}
 
 
-vowel_consonant('y');
-vowel_consonant('a');
-vowel_consonant('e');
+  };
+
+
+//   solution('a');
+  console.log( solution('n'));
