@@ -10,3 +10,4 @@ function checkTriangle(side1, side2, side3){
     }
 
 console.log(checkTriangle(8,8,8));
+
