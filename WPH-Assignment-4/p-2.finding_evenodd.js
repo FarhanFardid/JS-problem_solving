@@ -13,4 +13,4 @@ function evenOdd(input_string){
     }
 }
 
-// console.log(evenOdd('true '));
+//  console.log(evenOdd('batch7'));
