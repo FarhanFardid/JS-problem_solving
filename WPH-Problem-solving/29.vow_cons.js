@@ -6,7 +6,7 @@ function vowel_consonant(letter){
 
   else if( letter == 'E' || letter =='e')
     {
-        console.log("VOWEL");
+        console.log('VOWEL');
     }
     else if( letter == 'I' || letter =='i')
     {
