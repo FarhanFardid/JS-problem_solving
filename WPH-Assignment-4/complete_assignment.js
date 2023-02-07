@@ -92,3 +92,10 @@ function gemsToDiamond(num1, num2, num3){
         }
     }
 }
+
+
+console.log(mindGame(50));
+console.log(evenOdd('hio'));
+console.log(isLGSeven(-6));
+console.log(findingBadData([87, 981,475,'48', -69, -57, -378, '-90' ]));
+console.log(gemsToDiamond(7,-9,0));
