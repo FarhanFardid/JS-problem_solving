@@ -1,3 +1,4 @@
+// problem-4: The findingBadData() function takes an array as input and if there are bad data that is negative number then the function will return the number of negative numbers that are is in the array.
 function findingBadData(input_data){
     if(Array.isArray(input_data)){
 
@@ -17,4 +18,4 @@ else{
 }
 }
 
-// console.log(findingBadData([76, -90, 0, 56, -34, -32, -45]));
+console.log(findingBadData(['-76']));
