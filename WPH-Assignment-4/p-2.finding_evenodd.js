@@ -1,6 +1,6 @@
 function evenOdd(input_string){
-    if(typeof input_string != 'string'){
-        return "Please, enter a valid input type";
+    if(typeof input_string !== 'string'){
+        return "Please, enter a valid string input ";
     }
     else{
         let string_length = input_string.length;
@@ -13,4 +13,4 @@ function evenOdd(input_string){
     }
 }
 
-//  console.log(evenOdd('batch7'));
+ console.log(evenOdd('hello'));
